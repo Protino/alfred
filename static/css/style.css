@@ -1,0 +1,10 @@
+/* Needed for firefox, since it uses OS font instead off inheriting body font */
+textarea, input, button, select { font-family: inherit; font-size: inherit; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
